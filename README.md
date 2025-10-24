@@ -16,9 +16,10 @@ One to One relationship
   -  Busines E2E
   -  Loyal_Customer_DB : This particular database focuses on extracting and segmenting customers based upon the frequent purchases again within the span of 1 week. This
                          particular output has been extracted using PostgreSQL server.
-                         SQL Query:-  
+
+    					 SQL Query:-  
                           Select "Customer_ID",
-                          case
+				          case
                           when "Purchase_Count" >= 100 then 'Active Customers'
                           When "Purchase_Count" <100 and "Purchase_Count" >=50 then 'Moderately Active Customers'
                           Else 'Less Active Customers' end as "Activity Status"
