@@ -3,7 +3,7 @@
 # Project Description: Omni Sales & Customer Loyalty Analysis
 
 # Project Overview:
-This project analyzes business data for a E-commerce start up chain with branches in different country locations, focusing on identifying spending patterns, and customer  preferences enabling the stakeholders to further deep dive into key metrices and come up with fiscal plan for year 2016. This analysis aims to uncover valuable insights that can drive strategic decision-making. 
+This project analyzes business data for a E-commerce start up chain with branches in different country locations, focusing on identifying spending patterns, and customer  preferences enabling the stakeholders to further deep dive into key metrices and come up with fiscal plan for year 2016 in Canada. This analysis aims to uncover valuable insights that can drive strategic decision-making. 
 
 # Project Tools:
 Power BI, PostgreSQL
@@ -42,26 +42,58 @@ One to One relationship
 
 	- Omni Sales Analysis:	
 	  The Omni Sales Analysis Dashboard is designed to evaluate key performance indicators (KPIs) that provide insights into the overall performance of an online retail c		  chain operating across the Canadian region.
+	  Filter: Year-Quarter,Country
 	  KPIs:-
 	  		a) Average Basket Value (ABV):
 			   The ABV analyses the amount spent within a single transaction. ABV = (Total Sales Revenue/Number of Transactions)
-			   Key Findings: Within the span of 5 years, there has been an increse in the overall ABV of up to $179K in the last phase  (year 2015), signifying that there  
-			   has been a massive increase in the online purchases by the customers. 
-			
+			   Key Findings: Over a 5-year period, the ABV has shown significant growth, reaching $179K in 2015. This indicates a substantial increase in customers’ online  
+			   purchasing behavior, reflecting stronger spending patterns and higher transaction values.			
+			    
 			b) Customer Acquisition Cost (CAC):
 			   The Customer Acquisition Cost highlights the total sum of discount expenses incurred by the businesss to retain the customers. 
-			   Key Findings: There has been a significant in increase in the Customer aquisition within the span of 5 years of up to $ 862 in year 2015, which brought the 	
-			   82 Total Repeat Customers with 56.1% of less active customers bieng the major chunk of the whole portion in the total profits(See Loyalty Analysis 
-			   Dashboard->Filter->Order_Channel->Canada).
-
+			   Key Findings: here has been a notable increase in customer acquisition over the 5-year period, reaching $862 in 2015 with a spike in 2011 and 2014. This 
+			   growth resulted in 82 total repeat customers, with 56.1% classified as less active customers, who nonetheless contributed a significant share to the overall 
+			   profits. (Refer to Loyalty Analysis Dashboard → Filter → Order Channel → Canada.)
+			   
 			c) Discount Impact % Analysis:
 			   This particular dashboard analyses the impact of discount expenses on the product sales with repsect to the different brand names.
-			   Key Findings: During the first phase (Year 2010), Snake Boots and Stretch Oui Pants observed the equal maximum impact of the discounts with 29.18% of  
-			   contribution to thier sales. Whereas, in the last phase (Year 2015) the trend shifted to Summer Shorts and Basket with an impact of 33.87% during the third 
-			   quarter. 
-			   
-			d) Cummulative Sales: Analyses the cummulative sales by the month.
-	  		   Key Findings: THe first year of the business saw a major spike in the business of up to $ 140000 during the month of January with Snake Boots bieng the top 	 
-			   selling priduct 
+			   Key Findings: In the initial phase (Year 2010), Snake Boots and Stretch Oui Pants both experienced the highest discount-driven sales impact, each contributing 			   29.18% to total sales. However, by the final phase (Year 2015), the trend had shifted—Summer Shorts and Baskets emerged as the top performers, driving a 
+			   33.87% impact during the third quarter, reflecting a clear evolution in customer preferences and seasonal purchasing behavior.
 
+			d) Cummulative Sales: Analyses the cummulative sales by the month.
+	  		   Key Findings: Over the 5-year span, the business experienced a significant surge in sales between October and February during the winter seasons from 2011 to 
+			   2014, with Snake Boots consistently ranking as the top-selling product. This trend highlights a strategic opportunity to launch targeted promotions or loyalty 
+			   offers during this period to retain and further engage customers who frequently purchase Snake Boots.
+
+			d) Total Profit By Product Brand: Anlyses the perventage contribution of each brand to the business profits. 
+			   Key Findings: Within the 5 years, Snake Boots had an ovrerall contribution with 58.99% to the profits with the overall sales of $2.04M with the customer 
+			   Aqcuistion Cost of $3000.
+
+			e) Top Sales By Brand:
+			   Key Findings: Over the past five years, Snake Boots emerged as the top-selling product, generating total sales of $2.04M and accounting for 80% of sales in 
+			   July of the most recent year.
+
+			f) Top Sales by Office: The oganisation has got several offices across the globe, that are responsible for executing the online sales on customer's behalf.
+			   Key Findings: Kolkata branch in India has been the top selling branch with the major contribution of the overall sales of $1,400,000.
+
+			G) Top 5 Supplier Channels: Analyses the sales contribution by the supplier channels.
+			   Key Findings: Cangaroo Shoes has been the major supplier, whose has sales orders has been executed by Kolkata office with Snake Boots bieng a star product   and 			   a major contributor to the sales.
+
+			Conclusion:
+				- Average Basket Value increased significantly over 5 years, indicating higher customer spending and stronger purchasing behavior.
+				- Rising Customer Acquisition Costs and repeat customer data highlight opportunities to engage less active customers effectively.
+				- Discount-driven sales shifted from Snake Boots and Stretch Oui Pants to Summer Shorts and Baskets vests, reflecting changing customer preferences.
+				- Snake Boots consistently led sales and profits, particularly during winter months, representing key opportunities for targeted promotions and loyalty 	
+				  initiatives.
+				
+	- Customer Behavior Analysis: Loyalty Members
+	  This Dashboard is designed to evaluate key performance indicators (KPIs) that provide insights into the overall behavioral patterns of the loyal customers using  
+	  database called 'Loyal_Customer_DB' as a major foundation across the Canadian order chanel. The main focus is to analyse the less active customers and their behavior.
+	  
+	  	
+	  
+
+			
+			   
+			
 # 
