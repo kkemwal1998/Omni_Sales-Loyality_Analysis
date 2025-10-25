@@ -16,7 +16,8 @@ One to One relationship
 # Databases: 
   -  Busines E2E
   -  Loyal_Customer_DB : This particular database focuses on extracting and segmenting customers based upon the frequent purchases within the span of 1st week of their
-     purchase. To further dive deeper and extract the same output has been extracted using PostgreSQL server.
+     purchase. To further dive deeper and extract the same output has been extracted using PostgreSQL server. Based on threshold levels in the purchase counts, customers
+     have been 
 
     					 SQL Query:-  
                           Select "Customer_ID",
@@ -88,7 +89,14 @@ One to One relationship
 				
 	- Customer Behavior Analysis: Loyalty Members
 	  This Dashboard is designed to evaluate key performance indicators (KPIs) that provide insights into the overall behavioral patterns of the loyal customers using  
-	  database called 'Loyal_Customer_DB' as a major foundation across the Canadian order chanel. The main focus is to analyse the less active customers and their behavior.
+	  database called 'Loyal_Customer_DB' as a major foundation across the Canadian order channel. The main focus is to analyse the less active customers.
+	  KPIs:-
+	  		a) Total Profits by Customer Active Status:
+			   Over the span of 5 year period, less Active Customers have accounted for 56.1% for the total profits with a major spike by 43%. Whereas, there has been a 
+			   slight increase in case of Active Customers by 0.82%. 
+			   
+	  		b) Total Sales :
+				
 	  
 	  	
 	  
