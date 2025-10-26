@@ -16,8 +16,11 @@ One to One relationship
 # Databases: 
   -  Busines E2E
   -  Loyal_Customer_DB : This particular database focuses on extracting and segmenting customers based upon the frequent purchases within the span of 1st week of their
-     purchase. To further dive deeper and extract the same output has been extracted using PostgreSQL server. Based on threshold levels in the purchase counts, customers
-     have been 
+     purchase. To further dive deeper and extract the same output has been extracted using PostgreSQL server. Based on threshold levels in the purchase counts:-
+     					Purchase Count < 50 ---> Less Active Customers
+						Purchase Count >= 50 ---> Moderately Active Customers
+						Purchase Count >= 100 ---> Active Customers
+     					   
 
     					 SQL Query:-  
                           Select "Customer_ID",
@@ -91,14 +94,38 @@ One to One relationship
 	  This Dashboard is designed to evaluate key performance indicators (KPIs) that provide insights into the overall behavioral patterns of the loyal customers using  
 	  database called 'Loyal_Customer_DB' as a major foundation across the Canadian order channel. The main focus is to analyse the less active customers.
 	  KPIs:-
-	  		a) Total Profits by Customer Active Status:
-			   Over the span of 5 year period, less Active Customers have accounted for 56.1% for the total profits with a major spike by 43%. Whereas, there has been a 
-			   slight increase in case of Active Customers by 0.82%. 
+	  		a) Total Repeat Customers:
+			   The business recorded 82 repeat customers, with nearly 90% of them belonging to the previously less active customer segment—indicating strong re-engagement 
+			   and improved customer retention.	
 			   
-	  		b) Total Sales :
-				
-	  
-	  	
+			b) Total Profits by Customer Active Status:
+			   Over the 5-year period, less active customers contributed 56.1% of the total profits, showing a significant growth of 43%. In contrast, active customers 
+			   experienced only a modest increase of 0.82%, indicating that re-engaging less active customers had a more substantial impact on overall profitability.
+			   
+	  		c) Total Sales by customer category:
+			   This visualization highlights the top product category purchased by less active customers. Sportswear emerged as the leading category, generating total sales 
+			   of $723.78K. However, the category experienced a significant decline of $217.01K between 2011 and 2015.
+			   
+			d) Total Sales by customer category:
+			   This visualization highlights the top product category among less active customers. Sportswear stands out as the best-selling category, generating total 
+			   sales of $723.78K, though it witnessed a notable decline of $217.01K between 2011 and 2015.
+			   
+	  		e) Repeat Customer Rate:
+			   There has been an overall customer growth of 5.35%, accompanied by a significant 41% decline in the repeat purchase rate.
+			   
+			f) Discount Impact on Customers (%):
+			   Discount and loyalty promotions had a substantial impact of 56.27% on less engaged customers, driving a notable 20% increase in their overall engagement.
+
+			Conclusion:
+			The business successfully re-engaged less active customers, who accounted for nearly 90% of repeat purchases, strengthening overall customer retention.
+
+			- Less active customers contributed significantly to profitability, driving 56.1% of total profits with a 43% increase over five years.
+
+			- Despite Sportswear being the top selling category among less active customers, it showed a notable sales decline of $217.01K between 2011 and 2015.
+
+			- Discount and loyalty promotions proved effective, increasing engagement among less active customers by 20%, even though the overall repeat purchase rate 
+			  fell by 41%.
+
 	  
 
 			
