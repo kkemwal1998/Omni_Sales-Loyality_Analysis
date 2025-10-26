@@ -17,6 +17,7 @@ One to One relationship
   -  Busines E2E
   -  Loyal_Customer_DB : This particular database focuses on extracting and segmenting customers based upon the frequent purchases within the span of 1st week of their
      purchase. To further dive deeper and extract the same output has been extracted using PostgreSQL server. Based on threshold levels in the purchase counts:-
+
      					Purchase Count < 50 ---> Less Active Customers
 
      					Purchase Count >= 50 ---> Moderately Active Customers
